@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Enemy
+comment1.params=imageLocation\ position\ size
+comment1.target=Enemy(java.lang.String,\ java.awt.Point,\ java.awt.Dimension)
+comment2.params=
+comment2.target=boolean\ switchDirection()
+comment3.params=x\ y
+comment3.target=void\ move(int,\ int)
+comment4.params=
+comment4.target=void\ fire()
+comment5.params=g
+comment5.target=void\ draw(java.awt.Graphics)
+comment6.params=
+comment6.target=void\ increaseSpeed()
+numComments=7

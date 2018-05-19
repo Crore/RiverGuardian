@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Laser
+comment1.params=position\ colour
+comment1.target=Laser(java.awt.Point,\ java.awt.Color)
+comment2.params=ySpeed
+comment2.target=void\ setyspeed(int)
+comment3.params=x\ y
+comment3.target=void\ move(int,\ int)
+comment4.params=g
+comment4.target=void\ draw(java.awt.Graphics)
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Player
+comment1.params=imageLocation\ position\ size
+comment1.target=Player(java.lang.String,\ java.awt.Point,\ java.awt.Dimension)
+comment2.params=g
+comment2.target=void\ draw(java.awt.Graphics)
+comment3.params=x\ y
+comment3.target=void\ move(int,\ int)
+comment4.params=
+comment4.target=void\ fire()
+numComments=5
