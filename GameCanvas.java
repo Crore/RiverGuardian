@@ -137,7 +137,7 @@ public class GameCanvas extends JPanel implements ActionListener{
                 if (currentLaser.getRectangle().intersects(e.getRectangle()) && currentLaser.isActive()) {
                     currentLaser.setActive(false);
                     playerLaserCleanUpList.add(currentLaser);
-                    score+=5;
+                    score+=25;
                     e.setActive(false);
                     enemyCount--;
                 }
@@ -149,7 +149,7 @@ public class GameCanvas extends JPanel implements ActionListener{
             }
         }
         Iterator<Laser> laserItt = Enemy.laserList.iterator();
-        while (laserItt.hasNext()) {
+         while (laserItt.hasNext()) {
             Laser currentLaser = (Laser) laserItt.next();
             if (player.isActive()) {
                 if (currentLaser.getRectangle().intersects(player.getRectangle()) && currentLaser.isActive()) {
@@ -172,7 +172,13 @@ public class GameCanvas extends JPanel implements ActionListener{
                     liveCount--;
                 }
             }
+            
+            if (player3.isActive()) {
+                if (currentLaser.getRectangle().intersects(player3.getRectangle()) && currentLaser.isActive()) {
+                    score--;
+            }
         }
+    }
     }
     private void cleanUp() {
         ArrayList<Enemy> al = new ArrayList<Enemy>();
